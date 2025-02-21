@@ -1,0 +1,41 @@
+html {
+  background-color: black;
+}
+
+.search-bar {
+  font-size: 15px;
+  background-color: #9b9595;
+  border-color: aqua;
+  border-radius: 5px;
+  border-width: thick;
+  width: 40%;
+  padding: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+}
+
+.main {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  width: 50%;
+  height: 40%;
+}
+
+.pokedex-desc {
+  background-color: #585858;
+  border: 4px solid black;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
