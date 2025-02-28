@@ -15,6 +15,9 @@ function MainPage() {
         <option value="pikachu">Pikachu</option>
         <option value="charizard">Charizard</option>
         <option value="eevee">Eevee</option>
+        <option value="umbreon">Umbreon</option>
+        <option value="espeon">Espeon</option>
+        <option value="blastoise">Blastoise</option>
       </select>
 
       <Pokedex selectedPokemon={selectedPokemon} />
