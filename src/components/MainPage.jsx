@@ -12,12 +12,17 @@ function MainPage() {
     <>
       <select className="search-bar" onChange={pokemonPicRouting}>
         <option value="">Select a Pokémon</option>
-        <option value="pikachu">Pikachu</option>
+        <option value="articuno">Articuno</option>
+        <option value="blastoise">Blastoise</option>
+        <option value="bulbasaur">Bulbasaur</option>
         <option value="charizard">Charizard</option>
         <option value="eevee">Eevee</option>
-        <option value="umbreon">Umbreon</option>
         <option value="espeon">Espeon</option>
-        <option value="blastoise">Blastoise</option>
+        <option value="magikarp">Magikarp</option>
+        <option value="pikachu">Pikachu</option>
+        <option value="psyduck">Psyduck</option>
+        <option value="umbreon">Umbreon</option>
+        <option value="zapdos">Zapdos</option>
       </select>
 
       <Pokedex selectedPokemon={selectedPokemon} />

@@ -6,6 +6,11 @@ import eevee from "./pictures/eve.png";
 import umbreon from "./pictures/umbreon.png";
 import espeon from "./pictures/espeon.png";
 import blastoise from "./pictures/blastoise.png";
+import articuno from "./pictures/articuno.png";
+import bulbasaur from "./pictures/bulbasaur.png";
+import magikarp from "./pictures/magikarp.png";
+import psyduck from "./pictures/psyduck.png";
+import zapdos from "./pictures/zapdos.png";
 
 const pokemonPicInfo = [
   {
@@ -37,6 +42,31 @@ const pokemonPicInfo = [
     name: "blastoise",
     pic: blastoise,
     desc: "Blastoise is a large, bipedal, reptilian Pokémon. It has a blue body with small purple eyes, a light brown belly, and a stubby tail.",
+  },
+  {
+    name: "articuno",
+    pic: articuno,
+    desc: "Articuno is a legendary bird Pokémon with the power to control ice. It has sky blue feathers, a long tail, and wings that are said to be made of ice.",
+  },
+  {
+    name: "bulbasaur",
+    pic: bulbasaur,
+    desc: "Bulbasaur is a small, amphibian-like Pokémon with a bulb on its back. It's a grass/poison type Pokémon that was the first Pokémon discovered and is known for being loyal and nurturing.",
+  },
+  {
+    name: "magikarp",
+    pic: magikarp,
+    desc: "Magikarp is a weak, fish-like Pokémon, who is inept and almost useless in battle, while Gyarados is the evolved form of Magikarp, boasting significant strength and power.",
+  },
+  {
+    name: "psyduck",
+    pic: psyduck,
+    desc: "Psyduck is a yellow-cream Pokémon that looks like a duck or platypus. It has a constant headache and uses psychic powers when it gets too bad. ",
+  },
+  {
+    name: "zapdos",
+    pic: zapdos,
+    desc: "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts.",
   },
 ];
 
