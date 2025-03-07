@@ -11,6 +11,9 @@ import bulbasaur from "./pictures/bulbasaur.png";
 import magikarp from "./pictures/magikarp.png";
 import psyduck from "./pictures/psyduck.png";
 import zapdos from "./pictures/zapdos.png";
+import tyranitar from "./pictures/tyranitar.png";
+import exeggutor from "./pictures/exeggutor.png";
+import lugia from "./pictures/lugia.png";
 
 const pokemonPicInfo = [
   {
@@ -67,6 +70,21 @@ const pokemonPicInfo = [
     name: "zapdos",
     pic: zapdos,
     desc: "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts.",
+  },
+  {
+    name: "tyranitar",
+    pic: tyranitar,
+    desc: "Tyranitar is a large, bipedal, dinosaurian Pokémon with a green, armor-like hide covering its body. It has two pairs of pointed teeth: one in the upper jaw and one in the lower.",
+  },
+  {
+    name: "exeggutor",
+    pic: exeggutor,
+    desc: "Exeggutor is the pride of the Alolan people. Its image is carved into historical buildings and murals. It swings its long neck like a whip and smacks its opponents. This makes Exeggutor itself dizzy, too.",
+  },
+  {
+    name: "lugia",
+    pic: lugia,
+    desc: "Lugia is an immense, draconian and mythical Pokémon with avian qualities. It has silver-white feathers over most of its body, except for its blue underbelly.",
   },
 ];
 

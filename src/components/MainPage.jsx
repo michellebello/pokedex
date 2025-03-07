@@ -21,7 +21,10 @@ function MainPage() {
         <option value="magikarp">Magikarp</option>
         <option value="pikachu">Pikachu</option>
         <option value="psyduck">Psyduck</option>
+        <option value="tyranitar">Tyranitar</option>
+        <option value="exeggutor">Exeggutor</option>
         <option value="umbreon">Umbreon</option>
+        <option value="lugia">Lugia</option>
         <option value="zapdos">Zapdos</option>
       </select>
 
