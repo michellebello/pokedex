@@ -1,6 +1,6 @@
 import "./styles/mainpage.css";
 
-function PokedexFrame({ pokemonPic, pokemonDesc }) {
+function PokedexFrame({ pokemonPic, pokemonDesc, onPokemonChange }) {
   return (
     <div>
       <svg className="main" viewBox="0 0 1096 824" fill="none">
@@ -54,6 +54,7 @@ function PokedexFrame({ pokemonPic, pokemonDesc }) {
           stroke="black"
           stroke-width="4"
         />
+
         <foreignObject x="643" y="195" width="357" height="159">
           <div className="pokedex-desc">{pokemonDesc}</div>
         </foreignObject>
