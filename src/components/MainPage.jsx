@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FrontPokedex from "./FrontPokedex";
 import Pokedex from "./Pokedex";
 import "./styles/mainpage.css";
 
@@ -10,7 +11,8 @@ function MainPage() {
   };
   return (
     <>
-      <select className="search-bar" onChange={pokemonPicRouting}>
+      <FrontPokedex></FrontPokedex>
+      {/* <select className="search-bar" onChange={pokemonPicRouting}>
         <option value="">Select a Pokémon</option>
         <option value="articuno">Articuno</option>
         <option value="blastoise">Blastoise</option>
@@ -28,7 +30,7 @@ function MainPage() {
         <option value="zapdos">Zapdos</option>
       </select>
 
-      <Pokedex selectedPokemon={selectedPokemon} />
+      <Pokedex selectedPokemon={selectedPokemon} /> */}
     </>
   );
 }

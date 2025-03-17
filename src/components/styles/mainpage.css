@@ -63,3 +63,10 @@ html {
     font-size: 5vw;
   }
 }
+
+.front-pokedex {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+}
