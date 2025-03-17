@@ -1,11 +1,14 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Pokedex from "./Pokedex";
 
 function SearchBar() {
   const [selectedPokemon, setSelectedPokemon] = useState("");
+
   const pokemonPicRouting = (e) => {
     setSelectedPokemon(e.target.value);
   };
+
   return (
     <div>
       <select className="search-bar" onChange={pokemonPicRouting}>
@@ -27,6 +30,7 @@ function SearchBar() {
       </select>
 
       <Pokedex selectedPokemon={selectedPokemon} />
+      <Link to="/"> Close Pokedex </Link>
     </div>
   );
 }
